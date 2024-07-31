@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~>1.5.1'
-gem 'jekyll-assets', '~>0.9.2'
+gem 'jekyll', '~> 3.6.3'
+gem 'jekyll-assets', '~> 2.0.0'
 gem 'bourbon', '~>3'
-
-# For markdown header cleanup
-gem 'sanitize', '>= 4.5.0'
+gem 'sanitize', '>= 6.0.2'
 
 gem 'wdm', '~> 0.1.0' if Gem.win_platform?
